@@ -10,9 +10,9 @@ public class Nikolay {
          Scanner oku=new Scanner(System.in);
          System.out.println("Yarışmacı sayısını giriniz: ");
          n=oku.nextInt();
-         System.out.println("Mehmet'in ilk turda aldığı sırayı giriniz: ");
+         System.out.println("Nikolay'ın ilk turda aldığı sırayı giriniz: ");
          x=oku.nextInt();
-         System.out.println("Mehmet'in ikinci turda aldığı sırayı giriniz: ");
+         System.out.println("Nikolay'ın ikinci turda aldığı sırayı giriniz: ");
          y=oku.nextInt();
          
          bestcase=1;
