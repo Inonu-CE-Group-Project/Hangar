@@ -16,6 +16,8 @@ public class StajyerAvukat {
     String iletişimBilgileri;
     String diploma;
     String donem;
+    String notlar;
     int ucret;
     
+    void sikKullanilanlar(){}
 }

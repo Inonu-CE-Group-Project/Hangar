@@ -17,8 +17,15 @@ public class AvukatlikOfisi {
     String calisanlar;
     String ortakliklar;
     String iletisimBilgisi;
+    int vergiNo;
     int muvekkilSayisi;
     double davaKazanimYuzdesi;
     double faliyetZamani;
     
+    double kazancHesapla (double gelir, double gider){
+        double sonuc=0;
+        return (sonuc);
+    }
+    
+    void sikKullanilanlar(){}
 }

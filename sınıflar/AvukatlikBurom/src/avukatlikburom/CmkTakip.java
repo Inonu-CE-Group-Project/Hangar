@@ -14,5 +14,10 @@ public class CmkTakip {
     String konu;
     String müvekkil;
     String asama;
-    
+    String notlar;
+
+    String durusmaGunu (String dosya){
+        String tarih = null;
+        return (tarih);
+    }    
 }

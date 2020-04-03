@@ -15,7 +15,9 @@ public class Sekreter {
     String soyadi;
     String iletisimBilgileri;
     String tecrubeler;
+    String notlar;
     int kidem;
     int ucret;
     
+    void sikKullanilanlar(){}
 }

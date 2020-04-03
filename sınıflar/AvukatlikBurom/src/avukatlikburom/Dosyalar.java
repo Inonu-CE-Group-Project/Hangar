@@ -12,7 +12,19 @@ package avukatlikburom;
 public class Dosyalar {
     
     String belgeler;
+    String notlar;
+    String masrafDurumu;
     double gelir;
     double gider;
+    boolean icraStatusu;
     
+    public void dosyaSirala (String dosya){
+    }
+    public String dosyaGetir (String dosya){
+    return(dosya);
+    }
+    String durusmaGunu (String dosya){
+        String tarih = null;
+        return (tarih);
+    }
 }

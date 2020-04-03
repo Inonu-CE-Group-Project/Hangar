@@ -17,6 +17,8 @@ public class Satislar {
     String icraDairesi;
     String satisBicimi;
     String asama;
+    String notlar;
+    String masrafDurumu;
     double kiymetTakdiri;
     double gelir;
     double gider;

@@ -7,7 +7,9 @@ public class IcraKatibi {
     String soyadi;
     String iletisimBilgisi;
     String tecrubeler;
+    String notlar;
     int kidem;
     int ucret;
     
+    void sikKullanilanlar(){}
 }

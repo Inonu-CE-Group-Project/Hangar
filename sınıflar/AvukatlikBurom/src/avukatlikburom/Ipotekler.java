@@ -15,4 +15,8 @@ public class Ipotekler {
     String banka;
     String alacaklilarListesi;
     String belgeler;
+    String notlar;
+    String masrafDurumu;
+    double odemeDurumu;
+    boolean icraStatusu;
 }

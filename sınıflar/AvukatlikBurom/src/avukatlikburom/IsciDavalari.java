@@ -15,8 +15,14 @@ public class IsciDavalari {
     String bildirim;
     String mevzuat;
     String ornekKararlar;
+    String notlar;
+    String masrafDurumu;
     int kidem;
     int zamanAsimi;
     int sureler;
      
+    String durusmaGunu (String dosya){
+        String tarih = null;
+        return (tarih);
+    }
 }

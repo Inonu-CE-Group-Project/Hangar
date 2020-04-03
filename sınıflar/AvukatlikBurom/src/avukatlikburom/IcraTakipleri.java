@@ -16,6 +16,8 @@ public class IcraTakipleri {
     String ilgililer;
     String zaman;
     String asama;
+    String notlar;
+    String masrafDurumu;
     double gelir;
     double gider;
     

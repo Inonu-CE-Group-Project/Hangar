@@ -23,4 +23,17 @@ public class Avukat {
     int kidem;
     int ücret;
     
+    public int sureHatirlat( String dava ){
+        int kalanSure = 0;
+        return (kalanSure);
+    }
+    public int sureTanimla (String konu){
+    int sure=0;
+    return (sure);
+    }
+    String notEkle (String belge){
+    return (belge);
+    }
+    void sonGun (String dosya){}
+    void sikKullanilanlar(){}
 }

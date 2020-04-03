@@ -15,8 +15,15 @@ public class Davalar {
     String dilekceler;
     String belgeler;
     String davaSureci;
+    String notlar;
+    String masrafDurumu;
     int sureler;
     double gelir;
     double gider;
-        
+    boolean icraStatusu;
+    
+    String durusmaGunu (String dosya){
+        String tarih = null;
+        return (tarih);
+    }        
 }

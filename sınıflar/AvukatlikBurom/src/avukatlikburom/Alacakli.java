@@ -14,6 +14,9 @@ public class Alacakli {
     String soyadi;
     String iletisimBilgisi;
     String vade;
+    String notlar;
+    int tcNo;
+    int vergiNo;
     boolean odemeDurumu;
     
 }

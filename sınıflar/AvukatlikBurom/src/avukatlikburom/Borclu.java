@@ -15,6 +15,10 @@ public class Borclu {
     String soyadi;
     String iletisimBilgisi;
     String vade;
+    String notlar;
+    int tcNo;
+    int vergiNo;    
     boolean odemeDurumu;
+    boolean icraStatusu;
     
 }
