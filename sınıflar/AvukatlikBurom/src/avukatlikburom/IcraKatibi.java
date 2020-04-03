@@ -6,9 +6,8 @@ public class IcraKatibi {
     String adi;
     String soyadi;
     String iletisimBilgisi;
-    String tecrübe;
-    String kidem;
+    String tecrubeler;
+    int kidem;
     int ucret;
-    
     
 }

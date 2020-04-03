@@ -11,8 +11,8 @@ package avukatlikburom;
  */
 public class Dosyalar {
     
-    int belgeler;
-    int gelir;
-    int gider;
+    String belgeler;
+    double gelir;
+    double gider;
     
 }

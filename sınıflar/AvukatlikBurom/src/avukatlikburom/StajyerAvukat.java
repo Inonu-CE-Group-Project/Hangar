@@ -14,8 +14,8 @@ public class StajyerAvukat {
     String adi;
     String soyadi;
     String iletişimBilgileri;
-    String fiploma;
-    String Dönem;
-    int Ücret;
+    String diploma;
+    String donem;
+    int ucret;
     
 }

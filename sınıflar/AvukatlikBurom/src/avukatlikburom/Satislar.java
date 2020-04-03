@@ -13,12 +13,12 @@ public class Satislar {
     
     String adres;
     String tarih;
-    String kiymetTakdiri;
     String katilimcilar;
     String icraDairesi;
     String satisBicimi;
     String asama;
-    int gelir;
-    int gider;
+    double kiymetTakdiri;
+    double gelir;
+    double gider;
     
 }

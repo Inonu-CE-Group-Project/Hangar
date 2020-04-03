@@ -13,6 +13,6 @@ public class CmkTakip {
     
     String konu;
     String müvekkil;
-    String Asama;
+    String asama;
     
 }

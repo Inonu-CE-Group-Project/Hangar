@@ -4,9 +4,6 @@
  * and open the template in the editor.
  */
 package avukatlikburom;
-
-import java.util.Date;
-
 /**
  *
  * @author User
@@ -17,10 +14,6 @@ public class Alacakli {
     String soyadi;
     String iletisimBilgisi;
     String vade;
-    int odemeDurumu;
-    
-    
-    
-    
+    boolean odemeDurumu;
     
 }

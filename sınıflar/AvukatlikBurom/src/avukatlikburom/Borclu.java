@@ -11,12 +11,10 @@ package avukatlikburom;
  */
 public class Borclu {
     
-    
     String adi;
     String soyadi;
     String iletisimBilgisi;
     String vade;
-    int odemeDurumu;
-    
+    boolean odemeDurumu;
     
 }

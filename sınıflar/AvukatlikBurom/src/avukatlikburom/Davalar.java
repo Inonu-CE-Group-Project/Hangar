@@ -14,10 +14,9 @@ public class Davalar {
     
     String dilekceler;
     String belgeler;
-    String süreler;
     String davaSureci;
-    int gelir;
-    int gider;
-    
-    
+    int sureler;
+    double gelir;
+    double gider;
+        
 }

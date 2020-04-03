@@ -12,13 +12,13 @@ package avukatlikburom;
 public class AvukatlikOfisi { 
     
     String adi;
-    String adres;
+    String adresi;
     String prestij;
-    int muvekkilSayisi;
-    int davaKazanimYuzdesi;
     String calisanlar;
     String ortakliklar;
-    int faliyetZamani;
     String iletisimBilgisi;
+    int muvekkilSayisi;
+    double davaKazanimYuzdesi;
+    double faliyetZamani;
     
 }

@@ -15,7 +15,7 @@ public class Sekreter {
     String soyadi;
     String iletisimBilgileri;
     String tecrubeler;
-    String kidem;
+    int kidem;
     int ucret;
     
 }

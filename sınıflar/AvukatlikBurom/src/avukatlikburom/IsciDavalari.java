@@ -11,13 +11,12 @@ package avukatlikburom;
  */
 public class IsciDavalari {
     
-    
     String isVeren;
-    String kidem;
     String bildirim;
-    String zamanAsimi;
-    String süre;
     String mevzuat;
     String ornekKararlar;
+    int kidem;
+    int zamanAsimi;
+    int sureler;
      
 }

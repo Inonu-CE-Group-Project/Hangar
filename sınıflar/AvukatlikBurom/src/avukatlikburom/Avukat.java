@@ -12,16 +12,15 @@ package avukatlikburom;
 public class Avukat {
     
     String adi;
-    String soyad;
+    String soyadi;
     String iletisimBilgisi;
     String diploma;
     String ruhsat;
+    String uzmanlikAlani;
+    String statü;
     int baroSicilNo;
     int cmkPuan;
-    String uzmanlikAlani;
-    String kidem;
-    String statü;
+    int kidem;
     int ücret;
-    
     
 }
