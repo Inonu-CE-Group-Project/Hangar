@@ -1,22 +1,94 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package avukatlikburom;
-/**
- *
- * @author User
- */
-public class Alacakli {
-    
-    String adi;
-    String soyadi;
-    String iletisimBilgisi;
-    String vade;
-    String notlar;
+
+public class Alacakli
+{
+	private String adi;
+	private String soyadi;
+	private String iletisimBilgisi;
+	private String vade;
+	private String notlar;
     int tcNo;
     int vergiNo;
     boolean odemeDurumu;
+    
+	public String getAdi()
+	{
+		return adi;
+	}
+	
+	public void setAdi(String adi)
+	{
+		this.adi = adi;
+	}
+	
+	public String getSoyadi()
+	{
+		return soyadi;
+	}
+	
+	public void setSoyadi(String soyadi)
+	{
+		this.soyadi = soyadi;
+	}
+	
+	public String getIletisimBilgisi()
+	{
+		return iletisimBilgisi;
+	}
+	
+	public void setIletisimBilgisi(String iletisimBilgisi)
+	{
+		this.iletisimBilgisi = iletisimBilgisi;
+	}
+	
+	public String getVade()
+	{
+		return vade;
+	}
+	
+	public void setVade(String vade)
+	{
+		this.vade = vade;
+	}
+	
+	public String getNotlar()
+	{
+		return notlar;
+	}
+	
+	public void setNotlar(String notlar)
+	{
+		this.notlar = notlar;
+	}
+	
+	public int getTcNo()
+	{
+		return tcNo;
+	}
+	
+	public void setTcNo(int tcNo)
+	{
+		this.tcNo = tcNo;
+	}
+	
+	public int getVergiNo()
+	{
+		return vergiNo;
+	}
+	
+	public void setVergiNo(int vergiNo)
+	{
+		this.vergiNo = vergiNo;
+	}
+	
+	public boolean isOdemeDurumu()
+	{
+		return odemeDurumu;
+	}
+	
+	public void setOdemeDurumu(boolean odemeDurumu)
+	{
+		this.odemeDurumu = odemeDurumu;
+	}
     
 }
