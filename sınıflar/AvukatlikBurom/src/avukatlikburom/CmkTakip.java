@@ -3,7 +3,7 @@ package avukatlikburom;
 public class CmkTakip
 {
 	private String konu;
-	private String müvekkil;
+	private String muvekkil;
 	private String asama;
 	private String notlar;
 
@@ -23,14 +23,14 @@ public class CmkTakip
 		this.konu = konu;
 	}
 
-	public String getMüvekkil()
+	public String getMuvekkil()
 	{
-		return müvekkil;
+		return muvekkil;
 	}
 
-	public void setMüvekkil(String müvekkil)
+	public void setMuvekkil(String muvekkil)
 	{
-		this.müvekkil = müvekkil;
+		this.muvekkil = muvekkil;
 	}
 
 	public String getAsama()

@@ -8,11 +8,11 @@ public class Avukat
     private String diploma;
     private String ruhsat;
     private String uzmanlikAlani;
-    private String statü;
+    private String statu;
     private int baroSicilNo;
     private int cmkPuan;
     private int kidem;
-    private int ücret;
+    private int ucret;
     
     public int sureHatirlat( String dava )
     {
@@ -101,14 +101,14 @@ public class Avukat
 		this.uzmanlikAlani = uzmanlikAlani;
 	}
 
-	public String getStatü()
+	public String getStatu()
 	{
-		return statü;
+		return statu;
 	}
 
-	public void setStatü(String statü)
+	public void setStatü(String statu)
 	{
-		this.statü = statü;
+		this.statu = statu;
 	}
 
 	public int getBaroSicilNo()
@@ -141,13 +141,13 @@ public class Avukat
 		this.kidem = kidem;
 	}
 
-	public int getÜcret()
+	public int getUcret()
 	{
-		return ücret;
+		return ucret;
 	}
 
-	public void setÜcret(int ücret)
+	public void setUcret(int ucret)
 	{
-		this.ücret = ücret;
+		this.ucret = ucret;
 	}
 }
