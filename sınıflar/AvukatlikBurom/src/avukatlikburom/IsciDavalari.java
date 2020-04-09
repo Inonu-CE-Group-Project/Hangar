@@ -12,99 +12,82 @@ public class IsciDavalari
 	private int zamanAsimi;
 	private int sureler;
      
-    String durusmaGunu (String dosya)
-    {
+    String durusmaGunu (String dosya) {
         String tarih = null;
         return tarih;
     }
 
-	public String getIsVeren()
-	{
+    //Get-Set Baslangic
+	public String getIsVeren() {
 		return isVeren;
 	}
 
-	public void setIsVeren(String isVeren)
-	{
+	public void setIsVeren(String isVeren){
 		this.isVeren = isVeren;
 	}
 
-	public String getBildirim()
-	{
+	public String getBildirim(){
 		return bildirim;
 	}
 
-	public void setBildirim(String bildirim)
-	{
+	public void setBildirim(String bildirim){
 		this.bildirim = bildirim;
 	}
 
-	public String getMevzuat()
-	{
+	public String getMevzuat(){
 		return mevzuat;
 	}
 
-	public void setMevzuat(String mevzuat)
-	{
+	public void setMevzuat(String mevzuat){
 		this.mevzuat = mevzuat;
 	}
 
-	public String getOrnekKararlar()
-	{
+	public String getOrnekKararlar(){
 		return ornekKararlar;
 	}
 
-	public void setOrnekKararlar(String ornekKararlar)
-	{
+	public void setOrnekKararlar(String ornekKararlar){
 		this.ornekKararlar = ornekKararlar;
 	}
 
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
 
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 
-	public String getMasrafDurumu()
-	{
+	public String getMasrafDurumu(){
 		return masrafDurumu;
 	}
 
-	public void setMasrafDurumu(String masrafDurumu)
-	{
+	public void setMasrafDurumu(String masrafDurumu){
 		this.masrafDurumu = masrafDurumu;
 	}
 
-	public int getKidem()
-	{
+	public int getKidem(){
 		return kidem;
 	}
 
-	public void setKidem(int kidem)
-	{
+	public void setKidem(int kidem){
 		this.kidem = kidem;
 	}
 
-	public int getZamanAsimi()
-	{
+	public int getZamanAsimi(){
 		return zamanAsimi;
 	}
 
-	public void setZamanAsimi(int zamanAsimi)
-	{
+	public void setZamanAsimi(int zamanAsimi){
 		this.zamanAsimi = zamanAsimi;
 	}
 
-	public int getSureler()
-	{
+	public int getSureler(){
 		return sureler;
 	}
 
-	public void setSureler(int sureler)
-	{
+	public void setSureler(int sureler){
 		this.sureler = sureler;
-	}    
+	}
+	//Get-Set Son
 }

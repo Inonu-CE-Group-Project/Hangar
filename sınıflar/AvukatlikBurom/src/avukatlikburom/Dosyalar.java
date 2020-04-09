@@ -1,7 +1,7 @@
 package avukatlikburom;
 
-public class Dosyalar
-{
+public class Dosyalar{
+
 	private String belgeler;
 	private String notlar;
 	private String masrafDurumu;
@@ -9,79 +9,58 @@ public class Dosyalar
     private double gider;
     private boolean icraStatusu;
     
-    public void dosyaSirala(String dosya)
-    {
-    	
-    }
+    public void dosyaSirala(String dosya){}
     
-    public String dosyaGetir(String dosya)
-    {
+    public String dosyaGetir(String dosya){
     	return(dosya);
     }
     
-    String durusmaGunu(String dosya)
-    {
+    String durusmaGunu(String dosya){
         String tarih = null;
         return (tarih);
     }
 
-	public String getBelgeler()
-	{
+    //Get-Set Baslangic
+	public String getBelgeler(){
 		return belgeler;
 	}
-
-	public void setBelgeler(String belgeler)
-	{
+	public void setBelgeler(String belgeler){
 		this.belgeler = belgeler;
 	}
 
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
-
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 
-	public String getMasrafDurumu()
-	{
+	public String getMasrafDurumu(){
 		return masrafDurumu;
 	}
-
-	public void setMasrafDurumu(String masrafDurumu)
-	{
+	public void setMasrafDurumu(String masrafDurumu){
 		this.masrafDurumu = masrafDurumu;
 	}
 
-	public double getGelir()
-	{
+	public double getGelir(){
 		return gelir;
 	}
-
-	public void setGelir(double gelir)
-	{
+	public void setGelir(double gelir){
 		this.gelir = gelir;
 	}
 
-	public double getGider()
-	{
+	public double getGider(){
 		return gider;
 	}
-
-	public void setGider(double gider)
-	{
+	public void setGider(double gider){
 		this.gider = gider;
 	}
 
-	public boolean isIcraStatusu()
-	{
+	public boolean getIcraStatusu(){
 		return icraStatusu;
 	}
-
-	public void setIcraStatusu(boolean icraStatusu)
-	{
+	public void setIcraStatusu(boolean icraStatusu){
 		this.icraStatusu = icraStatusu;
 	}
+	//Get-Set Son
 }

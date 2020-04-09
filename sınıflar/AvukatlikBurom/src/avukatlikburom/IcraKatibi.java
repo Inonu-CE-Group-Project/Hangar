@@ -3,13 +3,64 @@ package avukatlikburom;
 
 public class IcraKatibi {
     
-    String adi;
-    String soyadi;
-    String iletisimBilgisi;
-    String tecrubeler;
-    String notlar;
-    int kidem;
-    int ucret;
+    private String adi;
+    private String soyadi;
+    private String iletisimBilgisi;
+    private String tecrubeler;
+    private String notlar;
+    private int kidem;
+    private int ucret;
     
-    void sikKullanilanlar(){}
+    void sikKullanilanlar() {}
+
+    //Get-Set Baslangic
+    public String getAdi() {
+    	return adi;
+    }
+    public void setAdi(String adi) {
+    	this.adi=adi;
+    }
+    
+    public String getSoyadi() {
+    	return soyadi;
+    }
+    public void setSoyadi(String soyadi) {
+    	this.soyadi=soyadi;
+    }
+    
+    public String getIletisimBilgisi() {
+    	return iletisimBilgisi;
+    }
+    public void setIletisimBilgisi(String iletisimBilgisi) {
+    	this.iletisimBilgisi=iletisimBilgisi;
+    }
+    
+    public String getTecrubeler() {
+    	return tecrubeler;
+    }
+    public void setTecrubeler(String tecrubeler) {
+    	this.tecrubeler=tecrubeler;
+    }
+    
+    public String getNotlar() {
+    	return notlar;
+    }
+    public void setNotlar(String notlar) {
+    	this.notlar=notlar;
+    }
+    
+    public int getKidem() {
+    	return kidem;
+    }
+    public void setKidem(int kidem) {
+    	this.kidem=kidem;
+    }
+    
+    public int getUcret() {
+    	return ucret;
+    }
+    public void setUcret(int ucret) {
+    	this.ucret=ucret;
+    }
+    //Get-Set Son
 }

@@ -10,78 +10,63 @@ public class IcraTakipleri
 	private int kidem;
 	private int ucret;
     
-    void sikKullanilanlar()
-    {
-    	
-    }
+    void sikKullanilanlar() {}
 
-	public String getAdi()
-	{
+	//Get-Set Baslangic
+    public String getAdi(){
 		return adi;
 	}
 
-	public void setAdi(String adi)
-	{
+	public void setAdi(String adi){
 		this.adi = adi;
 	}
 
-	public String getSoyadi()
-	{
+	public String getSoyadi(){
 		return soyadi;
 	}
 
-	public void setSoyadi(String soyadi)
-	{
+	public void setSoyadi(String soyadi){
 		this.soyadi = soyadi;
 	}
 
-	public String getIletisimBilgisi()
-	{
+	public String getIletisimBilgisi(){
 		return iletisimBilgisi;
 	}
 
-	public void setIletisimBilgisi(String iletisimBilgisi)
-	{
+	public void setIletisimBilgisi(String iletisimBilgisi){
 		this.iletisimBilgisi = iletisimBilgisi;
 	}
 
-	public String getTecrubeler()
-	{
+	public String getTecrubeler(){
 		return tecrubeler;
 	}
 
-	public void setTecrubeler(String tecrubeler)
-	{
+	public void setTecrubeler(String tecrubeler){
 		this.tecrubeler = tecrubeler;
 	}
 
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
 
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 
-	public int getKidem()
-	{
+	public int getKidem(){
 		return kidem;
 	}
 
-	public void setKidem(int kidem)
-	{
+	public void setKidem(int kidem){
 		this.kidem = kidem;
 	}
 
-	public int getUcret()
-	{
+	public int getUcret(){
 		return ucret;
 	}
 
-	public void setUcret(int ucret)
-	{
+	public void setUcret(int ucret){
 		this.ucret = ucret;
 	}
+	//Get-Set Son
 }

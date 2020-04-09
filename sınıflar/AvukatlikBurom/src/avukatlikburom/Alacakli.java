@@ -1,94 +1,80 @@
 package avukatlikburom;
 
-public class Alacakli
-{
+public class Alacakli {
+
 	private String adi;
 	private String soyadi;
 	private String iletisimBilgisi;
 	private String vade;
 	private String notlar;
-    int tcNo;
-    int vergiNo;
-    boolean odemeDurumu;
+    private int tcNo;
+    private int vergiNo;
+    private boolean odemeDurumu;
     
-	public String getAdi()
-	{
+    
+    //Get-Set Baslangic
+	public String getAdi(){
 		return adi;
 	}
 	
-	public void setAdi(String adi)
-	{
+	public void setAdi(String adi){
 		this.adi = adi;
 	}
 	
-	public String getSoyadi()
-	{
+	public String getSoyadi(){
 		return soyadi;
 	}
 	
-	public void setSoyadi(String soyadi)
-	{
+	public void setSoyadi(String soyadi){
 		this.soyadi = soyadi;
 	}
 	
-	public String getIletisimBilgisi()
-	{
+	public String getIletisimBilgisi(){
 		return iletisimBilgisi;
 	}
 	
-	public void setIletisimBilgisi(String iletisimBilgisi)
-	{
+	public void setIletisimBilgisi(String iletisimBilgisi){
 		this.iletisimBilgisi = iletisimBilgisi;
 	}
 	
-	public String getVade()
-	{
+	public String getVade(){
 		return vade;
 	}
 	
-	public void setVade(String vade)
-	{
+	public void setVade(String vade){
 		this.vade = vade;
 	}
 	
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
 	
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 	
-	public int getTcNo()
-	{
+	public int getTcNo(){
 		return tcNo;
 	}
 	
-	public void setTcNo(int tcNo)
-	{
+	public void setTcNo(int tcNo){
 		this.tcNo = tcNo;
 	}
 	
-	public int getVergiNo()
-	{
+	public int getVergiNo(){
 		return vergiNo;
 	}
 	
-	public void setVergiNo(int vergiNo)
-	{
+	public void setVergiNo(int vergiNo){
 		this.vergiNo = vergiNo;
 	}
 	
-	public boolean isOdemeDurumu()
-	{
+	public boolean getOdemeDurumu(){
 		return odemeDurumu;
 	}
 	
-	public void setOdemeDurumu(boolean odemeDurumu)
-	{
+	public void setOdemeDurumu(boolean odemeDurumu){
 		this.odemeDurumu = odemeDurumu;
 	}
-    
+    //Get-Set son
 }

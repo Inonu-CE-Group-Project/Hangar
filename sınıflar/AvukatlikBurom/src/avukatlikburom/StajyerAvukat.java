@@ -10,78 +10,56 @@ public class StajyerAvukat
 	private String notlar;
 	private int ucret;
     
-    void sikKullanilanlar()
-    {
-    	
-    }
+    void sikKullanilanlar() {}
 
-	public String getAdi()
-	{
+	//Get-Set Son
+    public String getAdi(){
 		return adi;
 	}
-
-	public void setAdi(String adi)
-	{
+	public void setAdi(String adi){
 		this.adi = adi;
 	}
 
-	public String getSoyadi()
-	{
+	public String getSoyadi(){
 		return soyadi;
 	}
-
-	public void setSoyadi(String soyadi)
-	{
+	public void setSoyadi(String soyadi){
 		this.soyadi = soyadi;
 	}
 
-	public String getIletisimBilgileri()
-	{
+	public String getIletisimBilgileri(){
 		return iletisimBilgileri;
 	}
-
-	public void setIletisimBilgileri(String iletisimBilgileri)
-	{
+	public void setIletisimBilgileri(String iletisimBilgileri){
 		this.iletisimBilgileri = iletisimBilgileri;
 	}
 
-	public String getDiploma()
-	{
+	public String getDiploma(){
 		return diploma;
 	}
-
-	public void setDiploma(String diploma)
-	{
+	public void setDiploma(String diploma){
 		this.diploma = diploma;
 	}
 
-	public String getDonem()
-	{
+	public String getDonem(){
 		return donem;
 	}
-
-	public void setDonem(String donem)
-	{
+	public void setDonem(String donem){
 		this.donem = donem;
 	}
 
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
-
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 
-	public int getUcret()
-	{
+	public int getUcret(){
 		return ucret;
 	}
-
-	public void setUcret(int ucret)
-	{
+	public void setUcret(int ucret){
 		this.ucret = ucret;
 	}
+	//Get-Set Son
 }

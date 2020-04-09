@@ -14,113 +14,82 @@ public class Satislar
     private double gelir;
     private double gider;
     
-	public String getAdres()
-	{
+	//Get-Set Baslangic
+    public String getAdres(){
 		return adres;
 	}
-	
-	public void setAdres(String adres)
-	{
+	public void setAdres(String adres){
 		this.adres = adres;
 	}
 	
-	public String getTarih()
-	{
+	public String getTarih(){
 		return tarih;
 	}
-	
-	public void setTarih(String tarih)
-	{
+	public void setTarih(String tarih){
 		this.tarih = tarih;
 	}
 	
-	public String getKatilimcilar()
-	{
+	public String getKatilimcilar(){
 		return katilimcilar;
 	}
-	
-	public void setKatilimcilar(String katilimcilar)
-	{
+	public void setKatilimcilar(String katilimcilar){
 		this.katilimcilar = katilimcilar;
 	}
 	
-	public String getIcraDairesi()
-	{
+	public String getIcraDairesi(){
 		return icraDairesi;
 	}
-	
-	public void setIcraDairesi(String icraDairesi)
-	{
+	public void setIcraDairesi(String icraDairesi){
 		this.icraDairesi = icraDairesi;
 	}
 	
-	public String getSatisBicimi()
-	{
+	public String getSatisBicimi(){
 		return satisBicimi;
 	}
-	
-	public void setSatisBicimi(String satisBicimi)
-	{
+	public void setSatisBicimi(String satisBicimi){
 		this.satisBicimi = satisBicimi;
 	}
 	
-	public String getAsama()
-	{
+	public String getAsama(){
 		return asama;
 	}
-	
-	public void setAsama(String asama)
-	{
+	public void setAsama(String asama){
 		this.asama = asama;
 	}
 	
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
-	
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 	
-	public String getMasrafDurumu()
-	{
+	public String getMasrafDurumu(){
 		return masrafDurumu;
 	}
-	
-	public void setMasrafDurumu(String masrafDurumu)
-	{
+	public void setMasrafDurumu(String masrafDurumu){
 		this.masrafDurumu = masrafDurumu;
 	}
 	
-	public double getKiymetTakdiri()
-	{
+	public double getKiymetTakdiri(){
 		return kiymetTakdiri;
 	}
-	
-	public void setKiymetTakdiri(double kiymetTakdiri)
-	{
+	public void setKiymetTakdiri(double kiymetTakdiri){
 		this.kiymetTakdiri = kiymetTakdiri;
 	}
 	
-	public double getGelir()
-	{
+	public double getGelir(){
 		return gelir;
 	}
-	
-	public void setGelir(double gelir)
-	{
+	public void setGelir(double gelir){
 		this.gelir = gelir;
 	}
 	
-	public double getGider()
-	{
+	public double getGider(){
 		return gider;
 	}
-	
-	public void setGider(double gider)
-	{
+	public void setGider(double gider){
 		this.gider = gider;
 	}
+	//Get-Set Son
 }

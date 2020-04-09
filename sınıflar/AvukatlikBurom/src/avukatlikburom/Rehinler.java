@@ -12,92 +12,68 @@ public class Rehinler
 	private double odemeDurumu;
 	private boolean icraStatusu;
 	
-	public String getBasvurular()
-	{
+	//Get-Set Baslangic
+	public String getBasvurular(){
 		return basvurular;
 	}
-	
-	public void setBasvurular(String basvurular)
-	{
+	public void setBasvurular(String basvurular){
 		this.basvurular = basvurular;
 	}
 	
-	public String getAsama()
-	{
+	public String getAsama(){
 		return asama;
 	}
-	
-	public void setAsama(String asama)
-	{
+	public void setAsama(String asama){
 		this.asama = asama;
 	}
 	
 	public String getBanka() {
 		return banka;
 	}
-	
-	public void setBanka(String banka)
-	{
+	public void setBanka(String banka){
 		this.banka = banka;
 	}
 	
-	public String getAlacaklilarListesi()
-	{
+	public String getAlacaklilarListesi(){
 		return alacaklilarListesi;
-	}
-	
-	public void setAlacaklilarListesi(String alacaklilarListesi)
-	{
+	}	
+	public void setAlacaklilarListesi(String alacaklilarListesi){
 		this.alacaklilarListesi = alacaklilarListesi;
 	}
 	
-	public String getBelgeler()
-	{
+	public String getBelgeler(){
 		return belgeler;
 	}
-	
-	public void setBelgeler(String belgeler)
-	{
+	public void setBelgeler(String belgeler){
 		this.belgeler = belgeler;
 	}
 	
-	public String getNotlar()
-	{
+	public String getNotlar(){
 		return notlar;
 	}
-	
-	public void setNotlar(String notlar)
-	{
+	public void setNotlar(String notlar){
 		this.notlar = notlar;
 	}
 	
-	public String getMasrafDurumu()
-	{
+	public String getMasrafDurumu(){
 		return masrafDurumu;
 	}
-	
-	public void setMasrafDurumu(String masrafDurumu)
-	{
+	public void setMasrafDurumu(String masrafDurumu){
 		this.masrafDurumu = masrafDurumu;
 	}
 	
-	public double getOdemeDurumu()
-	{
+	public double getOdemeDurumu(){
 		return odemeDurumu;
 	}
-	
-	public void setOdemeDurumu(double odemeDurumu)
-	{
+	public void setOdemeDurumu(double odemeDurumu){
 		this.odemeDurumu = odemeDurumu;
 	}
 	
-	public boolean isIcraStatusu()
-	{
+	public boolean getIcraStatusu(){
 		return icraStatusu;
 	}
-	
-	public void setIcraStatusu(boolean icraStatusu)
-	{
+	public void setIcraStatusu(boolean icraStatusu){
 		this.icraStatusu = icraStatusu;
 	}
+	//Get-Set Son
 }
